@@ -1,0 +1,153 @@
+.body {
+    margin 0px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    font-size: larger;
+}
+
+.left-nav {
+    display: flex;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-bottom: 1px solid white;
+    transition: border-bottom 0.5s;
+}
+
+.left-nav-wrapper {
+    display: flex;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.left-nav-wrapper > a {
+    display: flex;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: grey;
+    transition: color 0.5s;
+}
+
+.left-nav-wrapper:hover {
+    border-bottom: 1px solid red;
+}
+
+.left-nav-wrapper a:hover {
+    color: black;
+}
+
+.right-nav {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    border-bottom: 1px solid white;
+    transition: border-bottom 0.5s;
+}
+
+.name > a {
+    color: grey;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.name:hover {
+    border-bottom: 1px solid red;
+}
+
+.name a:hover {
+    color: black;
+}
+
+.items-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.item-wrapper {
+    position: relative;
+}
+
+.background-image {
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-text {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.logo-wrapper > img {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.image-subtitle {
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    transition: color 1s;
+    color: transparent;
+}
+
+.img-text:hover > .image-subtitle {
+    color: aqua;
+    transition: color 1s;
+}
+
+.darken-item {
+    transition: 1s;
+    filter: brightness(15%);
+}
+
+.darken-out-item {
+    transition: 1s;
+}
+
+.two-column-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.profile-image > img {
+    width: 100%;
+}
+
+.profile-text {
+    padding: 30px;
+}
+
+.profile-text h1 {
+    color: maroon;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.profile-text p {
+    font-size: 93%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.active-link {
+    border-bottom: 3px solid black;
+}
+
+.active-link a {
+    color: black;
+}
