@@ -1,5 +1,5 @@
 .body {
-    margin 0px;
+    margin: 0px;
 }
 
 .container {
@@ -71,6 +71,9 @@
 
 .item-wrapper {
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .background-image {
@@ -117,7 +120,7 @@
 }
 
 .darken-out-item {
-    transition: 1s;
+    transition: 2s;
 }
 
 .two-column-wrapper {
